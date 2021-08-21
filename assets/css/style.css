@@ -16,11 +16,19 @@
          url('http://fonts.codearena.ir/b/titrbold/titrbold.ttf') format('truetype');
     font-weight: normal;
   }
+  @font-face {
+    font-family: Homa;
+    src: url('http://fonts.codearena.ir/b/homa/homa.eot');
+    src: url('http://fonts.codearena.ir/b/homa/homa.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/homa/homa.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/homa/homa.ttf') format('truetype');
+    font-weight: normal;
+  }
 
 
   body{
 
-    font-family: 'Cinzel', Titrbold, Jadidbold;
+    font-family: 'Cinzel', Homa, Titrbold, Jadidbold;
     background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
