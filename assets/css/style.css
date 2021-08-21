@@ -1,0 +1,14 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Playfair+Display:ital,wght@1,500&display=swap');
+@font-face {
+    font-family: Jadidbold;
+    src: url('http://fonts.codearena.ir/b/jadidbold/jadidbold.eot');
+    src: url('http://fonts.codearena.ir/b/jadidbold/jadidbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/jadidbold/jadidbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/jadidbold/jadidbold.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+  body{
+      font-family: 'Cinzel', Jadidbold;
+  }
