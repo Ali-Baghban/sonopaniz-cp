@@ -6,35 +6,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-XfhC/Sid4FIGSXYebcOtcSCRFkd/zZzAMVipf0bNWucloRvcKK2/dpVWodQbQ1Ek" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    
     <title>داشبورد</title>
 </head>
 <body>
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
-        <div class="container-fluid p-1">
+        <div class="container p-1 ">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarmenu">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link">خا نه</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">درخواست ها</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Dashboard</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Main</a></li>
                 </ul>
             </div>
-            <a href="#" class="navbar-brand d-none d-md-block">Sonopaniz.ir</a>
+            <a href="#" class="navbar-brand d-none d-md-block">Sono<span class="text-warning">paniz</span>.ir</a>
         </div>
     </div>
     <!-- Header -->
-    <section class="bg-dark text-light p-3 text-center">
-        <div class="container align-items-center">
-            <img src="assets/img/avatar.png" alt="" class="img-fluid" style="width: 10%;">
-            <h3>سلام <span class="text-warning">دنیا</span></h3>
+    <section class="bg-transparent text-light p-5 mt-1 text-center">
+    <div data-aos="fade-up">
+        <div class="row text-center g-3">
+            <div class="col-md">
+                <div class="card bg-light text-dark">
+                    <div class="card-body">
+                        <h4 class="card-title">CV</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#cvmodal">ثبت</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary text-warning">
+                    <div class="card-body">
+                        <h4 class="card-title">CV</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#cvmodal">ثبت</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary text-warning">
+                    <div class="card-body">
+                        <h4 class="card-title">CV</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#cvmodal">ثبت</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-light text-dark">
+                    <div class="card-body">
+                        <h4 class="card-title">CV</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#cvmodal">ثبت</a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
     </section>
+<!-- Table -->
+<section class="bg-transparent p-2">
+    <div class="container">
+        <div data-aos="zoom-in">
+<div class="table-responsive">
+    <table class="table align-middle table-sm table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+    </table>
+</div>
+</div>
+</div>
+</section>
+<!-- Modals -->
+<div class="modal fade" id="cvmodal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Recipient:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+</div>
 
-
-
+<!-- Footer -->
+<section class="bg-dark">
+    <div class="container">
+        <footer class="py-4 my-0">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://alibaghban.ir/support/s=sonopaniz" target="_blank" class="nav-link px-2 text-muted"><i class="fas fa-bug"></i> گزارش خطا <i class="fas fa-bug"></i></a></li>
+          </ul>
+          <p class="text-center text-muted">&copy; 2021 Sonopaniz.ir, Inc</p>
+        </footer>
+      </div>
+</section>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 800,
+            easing: 'ease-in-quad',
+            delay: 100,
+        });
+    </script>
 </body>
 </html>
