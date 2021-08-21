@@ -8,10 +8,19 @@
          url('http://fonts.codearena.ir/b/jadidbold/jadidbold.ttf') format('truetype');
     font-weight: normal;
   }
+  @font-face {
+    font-family: Titrbold;
+    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot');
+    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/titrbold/titrbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/titrbold/titrbold.ttf') format('truetype');
+    font-weight: normal;
+  }
+
 
   body{
 
-    font-family: 'Cinzel', Jadidbold;
+    font-family: 'Cinzel', Titrbold, Jadidbold;
     background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
